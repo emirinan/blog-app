@@ -41,7 +41,7 @@ export function Navbar() {
 
       {user ? (
         <div className="flex items-center gap-4">
-          <p>{user.given_name}</p>
+          <p>Hello,{user.given_name} 👋🏼</p>
           <LogoutLink className={buttonVariants({ variant: "outline" })}>
             Logout
           </LogoutLink>
