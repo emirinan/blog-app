@@ -48,7 +48,9 @@ export function Navbar() {
         </div>
       ) : (
         <div className="flex items-center gap-4">
-          <LoginLink className={buttonVariants()}>Login</LoginLink>
+          <LoginLink className={buttonVariants({ variant: "outline" })}>
+            Login
+          </LoginLink>
           <RegisterLink className={buttonVariants({ variant: "outline" })}>
             Register
           </RegisterLink>
